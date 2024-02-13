@@ -41,7 +41,6 @@ class MainActivity : ComponentActivity() {
 fun UnlockButton() {
     val x = BuildConfig.LOCAL_IP
     println(x)
-    println("Hello World")
     MaterialTheme {
         Box(
             modifier = Modifier.fillMaxSize(),
@@ -55,7 +54,7 @@ fun UnlockButton() {
                     .width(200.dp)
             ) {
                 Text(
-                    text = "Hello",
+                    text = "Unlock",
                     fontSize = 18.sp
                 )
             }
